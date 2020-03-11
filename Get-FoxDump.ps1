@@ -780,7 +780,7 @@
     {
         Throw "Unable to load 32-bit dll's in 64-bit process."
     }
-    $mozillapath = "C:\Program Files (x86)\Mozilla Firefox"
+    $mozillapath = "C:\Program Files\Mozilla Firefox"
     
     If(Test-Path $mozillapath)
     {
